@@ -42,7 +42,7 @@ ul{
 
   font-size: 0.9rem;
   margin-top: -3rem;
-  margin-left: 1rem;
+  margin-left: -1rem;
 }
 li{
   list-style-type: none;
