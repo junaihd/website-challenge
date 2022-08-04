@@ -30,7 +30,7 @@ nav{
   justify-content: space-between;
 }
 ul{
-  height: 100vh;
+  height: 90vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -38,8 +38,7 @@ ul{
   align-items: center;
   color: #3F3D56;
   background: white;
-  position: fixed;
-
+  
   font-size: 0.9rem;
   margin-top: -3rem;
   margin-left: -1.5rem;
@@ -77,10 +76,16 @@ li{
   color: #3F3D56;
 }
 
+@media screen and (max-width:900px){
+  nav{
+    position: fixed;
+    top: 10vh;
+}
+
 /* navbar css desktop */
 
 @media screen and (min-width:999px) {
-  nav{
+  ul{
     width: 70%;
     flex-direction: row;
     justify-content: space-between;
@@ -92,7 +97,6 @@ li{
     align-items: flex-end;
     height: auto;
     width: 54%;
-    positon: relative;
     font-size: 0.75rem;
     margin-top: 0rem;
     background: none;
