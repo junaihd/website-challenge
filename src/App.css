@@ -31,6 +31,7 @@ nav{
 }
 ul{
   height: 100vh;
+  width: 100vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -94,7 +95,7 @@ li{
     font-size: 0.75rem;
     margin-top: 0rem;
     background: none;
-    margin-left: 0;
+    margin-left: 0rem;
   }
   .menu_icon{
     display: none;
