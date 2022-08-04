@@ -92,6 +92,7 @@ li{
     align-items: flex-end;
     height: auto;
     width: 54%;
+    positon: relative;
     font-size: 0.75rem;
     margin-top: 0rem;
     background: none;
