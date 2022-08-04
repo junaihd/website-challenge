@@ -33,9 +33,9 @@ function Navbar() {
         {(toggleMenu || screenWidth > 999) && (
         <ul>
           <a href='https://clickheist-trailer1.netlify.app/' className='design_link'><li>DESIGNS</li></a>
-          <Link to='details' smooth={true}><li>DETAILS</li></Link>
-          <Link to='cards' smooth={true}><li className='price'>PRICING</li></Link>
-          <Link to='contacts' smooth={true}><li>CONTACT</li></Link>
+          <Link onClick={toggleNav} to='details' smooth={true}><li>DETAILS</li></Link>
+          <Link onClick={toggleNav} to='cards' smooth={true}><li className='price'>PRICING</li></Link>
+          <Link onClick={toggleNav} to='contacts' smooth={true}><li>CONTACT</li></Link>
         </ul>
         )}
         
